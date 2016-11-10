@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">METEO</string>
+    <string name="action_settings">Settings</string>
+    <string name="sync_account_type">newsunshine.den.in.com</string>
+    <string name="content_authority">com.in.den.newsunshine.app</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!--lcoation setting -->
+    <string name="pref_location_key">"pref_location_key</string>
+    <string name="pref_location_default">Paris</string>
+    <string name="locations">Villes</string>
+
+
+    <string name="title_activity_main">METEO</string>
+    <string name="title_activity_detail">METEO</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- strings related to layouts -->
+    <!-- listview_locations_items -->
+    <string name="btn_delete">sup</string>
+    <string name="btn_add">ajout</string>
+
+    <!-- listview_item_forecast -->
+    <string name="temperature">TEMPERATURE (°)</string>
+    <string name="humidity">HUMIDITE (g/m3)</string>
+    <string name="pression">PRESSION ATOMOSPHERIQUE (Pa)</string>
+    <string name="morning">MATIN</string>
+    <string name="day">JOUR</string>
+    <string name="evening">SOIR</string>
+    <string name="night">NUIT</string>
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Général</string>
+
+
+    <string name="pref_title_add_friends_to_messages">Langues</string>
+    <string-array name="pref_language_list_titles">
+        <item>Défaut</item>
+        <item>Français</item>
+        <item>Anglais</item>
+    </string-array>
+    <string-array name="pref_language_list_values">
+        <item>-1</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="pref_language_list_code">
+        <item>-1</item>
+        <item>FR</item>
+        <item>EN</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync fréquance</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 heure</item>
+        <item>3 heures</item>
+        <item>6 heures</item>
+        <item>Jamais</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+
+
+</resources>

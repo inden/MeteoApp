@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_location"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.in.den.newsunshine.LocationActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp"
+        android:text="new meteo location"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/edit_newlocation"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_newlocation"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_add"
+            android:layout_weight="0.89" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>
