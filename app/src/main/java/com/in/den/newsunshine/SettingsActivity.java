@@ -83,7 +83,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         Resources resources = context.getResources();
 
         Configuration configuration = resources.getConfiguration();
-        configuration.locale = locale;
+        configuration.locale = locale; //obsolete
 
         resources.updateConfiguration(configuration, resources.getDisplayMetrics());
     }
