@@ -14,7 +14,7 @@
 ![screenshot_1478786791](https://cloud.githubusercontent.com/assets/21304543/20180236/f675c6f2-a759-11e6-97fe-fddea8034847.png)
 
 ##
-## L'information détaillé pour le jour choisi par ville. "MAP" affiche la carte de la ville en utilisant une app tiers.
+## L'information détaillée par jour/ville. Le menu "MAP" affiche la carte de la ville en utilisant une app tiers.
 ##
 
 ![screenshot_1478786823](https://cloud.githubusercontent.com/assets/21304543/20180237/f677279a-a759-11e6-93dd-dd9aa68eff03.png)
