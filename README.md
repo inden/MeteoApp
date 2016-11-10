@@ -45,11 +45,13 @@ La synchoronisation entre le site et l'application se fait
 - lors de l'ajout de nouvelles villes 
 - toutes les 3 heures (paramétrable)
 ## 
+
+
 ## Prerequis
 ##
-API 19 ou supérieur
+SDK API 19 ou supérieur
 ##
-## Techniques utilisés
+## Techniques utilisées
 - ContentProvider et SQLite
 - SynchAdapter
 - ExpandableList, CursorAdapter, CursorLoader
