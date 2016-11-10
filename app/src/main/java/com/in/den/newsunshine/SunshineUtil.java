@@ -20,6 +20,9 @@ public class SunshineUtil {
     }
 
 
+   /*
+   @ldate date represented in seconds
+    */
     public static DateStringHolder formatLongToDate(long ldate, Locale locale) {
 
         Date d = new Date(ldate * 1000);
