@@ -2,7 +2,7 @@
 ##
 ## L'utilisation 
 ##
-## La iste des villes avec le météo du jour à l'ouverture de l'app
+## La liste des villes avec le météo du jour à l'ouverture de l'app
 ##
 
 ![screenshot_1478786760](https://cloud.githubusercontent.com/assets/21304543/20180235/f66c5e78-a759-11e6-8567-301d8885273a.png)
