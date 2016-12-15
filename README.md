@@ -1,4 +1,5 @@
-# NewSunshine (App Android pour la prévision météo)
+# (Etude) NewSunshine 
+# App Android pour la prévision météo 
 ##
 ## L'utilisation 
 ##
