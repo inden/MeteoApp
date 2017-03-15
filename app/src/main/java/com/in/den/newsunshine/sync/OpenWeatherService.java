@@ -34,9 +34,6 @@ public class OpenWeatherService {
         final String DAYS_PARAM = "cnt";
         final String APPID_PARAM = "APPID";
 
-        //.appendQueryParameter(AUTORI_PARAM, "4594e014782b299142a29adc95b89c10")
-
-
         String format = "json";
         String units = "metric";
         int numDays = 7;
@@ -46,8 +43,7 @@ public class OpenWeatherService {
                 .appendQueryParameter(FORMAT_PARAM, format)
                 .appendQueryParameter(UNITS_PARAM, units)
                 .appendQueryParameter(DAYS_PARAM, Integer.toString(numDays))
-               //.appendQueryParameter(APPID_PARAM, BuildConfig.OPEN_WEATHER_MAP_API_KEY)
-                .appendQueryParameter(APPID_PARAM, "4594e014782b299142a29adc95b89c10")
+                .appendQueryParameter(APPID_PARAM, "Your-api-key-here")
                 .build();
 
 
