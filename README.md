@@ -2,7 +2,8 @@
 a 1 and 7 days weather forecast Android App.
 The weather data is provided by the Open API http://api.openweathermap.org.
 
-I'have developed an app with similar fonctionalities but more elegant architecture. Find it here :
+I'have developed an app with similar fonctionalities but with more elegant architecture. Find it here :
+https://github.com/inden/OpenWeatherMap
 
 
 ## How to use ##
@@ -26,7 +27,9 @@ Click *MAP* to see the city on a map. An implicit intent calls a Map app on devi
 <img src="https://cloud.githubusercontent.com/assets/21304543/20180237/f677279a-a759-11e6-93dd-dd9aa68eff03.png" width="400"/>
 
 
-## General Setting ##
+## Setting ##
+City setting to manage your favorite cities.
+
 
 <img src="https://cloud.githubusercontent.com/assets/21304543/20180241/f68cfc32-a759-11e6-813b-612b49a0ce67.png" width="400"/>
 
@@ -40,24 +43,27 @@ The default value is the device's one.
 
 
 ## Synchronization ##
-
-- à l'ouverture de l'app 
-- lors de l'ajout de nouvelles villes 
-- toutes les 3 heures (paramétrable)
+The app try to synchronize the data with the OpenweatherMap API
+- when it is launched
+- when a new city is added by city setting 
+- every 3 hours with synchAdapter (you can change the interval)
 
 
 
 ## SDK API 19 or later required ##
 
 ## Technology ##
+- Activity / Fragments
+- Service
+- ExpandableList
+- CursorAdapter
+- CursorLoader
 - ContentProvider
 - SQLite
 - SynchAdapter
-- ExpandableList, CursorAdapter, CursorLoader
-- Intent Implicite et Explicite
+- Intent (Implicit and Explicit)
 - JSon (Gson)
-- Activity / Fragments
-- Service
-- Background tasks
+- Async task
+- URIConnection
 
 
