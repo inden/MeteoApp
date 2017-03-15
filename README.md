@@ -1,50 +1,55 @@
-# (Etude) NewSunshine #
-# App Android pour la prévision météo #
+# (Demo) NewSunshine Android #
+a 1 and 7 days weather forecast Android App.
+The weather data is provided by the Open API http://api.openweathermap.org.
 
-## L'utilisation ##
+I'have developed an app with similar fonctionalities but more elegant architecture. Find it here :
 
-## La liste des villes avec le météo du jour à l'ouverture de l'app ##
 
+## How to use ##
+
+## Today's forecast per city ##
+Weather forecast of your favorite cities.
 
 <img src="https://cloud.githubusercontent.com/assets/21304543/20180235/f66c5e78-a759-11e6-8567-301d8885273a.png" width="400"/>
 
 
-## Le météo pour 7 jours par ville pour la ville cliquée ##
+## 7 days' forecast of a selected city  ##
+Click a city. The list is expanded and display 7 days's forecast.
 
 <img src="https://cloud.githubusercontent.com/assets/21304543/20180236/f675c6f2-a759-11e6-97fe-fddea8034847.png" width="400"/>
 
 
-## L'information détaillée par jour/ville. Le menu "MAP" affiche la carte de la ville en utilisant une app tiers. ##
+## Weather forecast with the detail ##
+Click a day and it displays the detail of the selected day.
+Click *MAP* to see the city on a map. An implicit intent calls a Map app on device.
 
 <img src="https://cloud.githubusercontent.com/assets/21304543/20180237/f677279a-a759-11e6-93dd-dd9aa68eff03.png" width="400"/>
 
 
-## Menu principal pour le paramétrage ##
+## General Setting ##
+
 <img src="https://cloud.githubusercontent.com/assets/21304543/20180241/f68cfc32-a759-11e6-813b-612b49a0ce67.png" width="400"/>
 
 
-## Editer la liste des villes (l'ajout et la suppression) ##
+##  Language Setting ##
+You can make a choice of a different language from the device's setting. T
+The default value is the device's one.
 
-<img src="https://cloud.githubusercontent.com/assets/21304543/20180238/f67cf116-a759-11e6-8549-85e115bf9490.png" width="400"/>
 
-
-## Choix de langue via application (défault est celui de l'appareil téléphonique) ##
 <img src="https://cloud.githubusercontent.com/assets/21304543/20180239/f6812ee8-a759-11e6-8abe-13d20313ca3f.png" width="400"/>
 
 
-## Information ##
-La prévision météo est fournie par http://api.openweathermap.org
-La synchoronisation entre le site et l'application se fait 
+## Synchronization ##
+
 - à l'ouverture de l'app 
 - lors de l'ajout de nouvelles villes 
 - toutes les 3 heures (paramétrable)
 
 
 
-## Prerequis ##
-SDK API 19 ou supérieur
+## SDK API 19 or later required ##
 
-## Techniques utilisées ##
+## Technology ##
 - ContentProvider
 - SQLite
 - SynchAdapter
